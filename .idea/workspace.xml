@@ -4,8 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="920e759f-8c1e-4fa3-9e7d-4f9c95f58962" name="Changes" comment="Patterns Strategy and Observer">
+    <list default="true" id="920e759f-8c1e-4fa3-9e7d-4f9c95f58962" name="Changes" comment="Pattern Observer">
+      <change afterPath="$PROJECT_DIR$/decorator/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/ru/kononovea/decorator/beverage/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/ru/kononovea/decorator/beverage/condiment/CondimentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/ru/kononovea/decorator/beverage/condiment/impl/Mocha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/ru/kononovea/decorator/beverage/condiment/impl/Soy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/ru/kononovea/decorator/beverage/condiment/impl/Whip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/ru/kononovea/decorator/beverage/impl/DarkRoast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/ru/kononovea/decorator/beverage/impl/Decaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/ru/kononovea/decorator/beverage/impl/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/ru/kononovea/decorator/beverage/impl/HouseBlend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/ru/kononovea/decorator/beverage/starbuzz/StarbuzzCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/ru/kononovea/decorator/input_stream/InputTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/ru/kononovea/decorator/input_stream/LowerCaseInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/ru/kononovea/decorator/input_stream/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/resources/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/test/java/ru/kononovea/decorator/DecoratorApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +47,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/decorator" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,27 +60,69 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "C:/Users/tolst/IdeaProjects/design-patterns/decorator/src/main/java/ru/kononovea/decorator/input_stream",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.SwingObserverExample">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tolst\IdeaProjects\design-patterns\decorator\src\main\java\ru\kononovea\decorator\input_stream" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tolst\IdeaProjects\design-patterns\decorator\src\main\resources" />
+      <recent name="C:\Users\tolst\IdeaProjects\design-patterns\decorator\src\main\java\ru\kononovea\decorator\input_stream" />
+      <recent name="C:\Users\tolst\IdeaProjects\design-patterns\decorator\src\main\java\ru\kononovea\decorator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.InputTest">
+    <configuration name="InputTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.kononovea.decorator.input_stream.InputTest" />
+      <module name="decorator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.kononovea.decorator.input_stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.kononovea.simuduck.MiniDuckSimulator" />
       <module name="SimUDuck" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.kononovea.simuduck.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarbuzzCoffee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.kononovea.decorator.starbuzz.StarbuzzCoffee" />
+      <module name="decorator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.kononovea.decorator.starbuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,8 +156,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DecoratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="decorator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.kononovea.decorator.DecoratorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InputTest" />
+        <item itemvalue="Application.StarbuzzCoffee" />
         <item itemvalue="Application.SwingObserverExample" />
         <item itemvalue="Application.WeatherStation" />
         <item itemvalue="Application.MiniDuckSimulator" />
@@ -112,7 +189,11 @@
       <workItem from="1703670088694" duration="4618000" />
       <workItem from="1704737185186" duration="2981000" />
       <workItem from="1704781196156" duration="9000" />
-      <workItem from="1708873343495" duration="1133000" />
+      <workItem from="1708873343495" duration="1750000" />
+      <workItem from="1708928115140" duration="26000" />
+      <workItem from="1708932461101" duration="1337000" />
+      <workItem from="1709192944747" duration="663000" />
+      <workItem from="1709538144993" duration="7269000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1701354969788</created>
@@ -128,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704740154977</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Pattern Observer">
+      <created>1708879036165</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708879036165</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,8 +234,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Patterns Strategy and Observer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Patterns Strategy and Observer" />
+    <MESSAGE value="Pattern Observer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pattern Observer" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator/src/main/java/ru/kononovea/decorator/input_stream/InputTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/decorator/src/main/java/ru/kononovea/decorator/input_stream/InputTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.jdks/corretto-18.0.2/lib/src.zip!/java.base/java/io/FileInputStream.java</url>
+          <line>215</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
