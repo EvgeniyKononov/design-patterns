@@ -4,27 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="920e759f-8c1e-4fa3-9e7d-4f9c95f58962" name="Changes" comment="Decorator">
-      <change afterPath="$PROJECT_DIR$/factory/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/example/factory/PizzaTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/example/factory/pizza_store/ChicagoPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/example/factory/pizza_store/NYPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/example/factory/pizza_store/PizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/example/factory/pizza_store/ingredient/ChicagoPizzaIngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/example/factory/pizza_store/ingredient/NYPizzaIngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/example/factory/pizza_store/ingredient/PizzaIngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/example/factory/pizza_store/pizza/CheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/example/factory/pizza_store/pizza/ChicagoStyleCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/example/factory/pizza_store/pizza/ClamPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/example/factory/pizza_store/pizza/NYStyleCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/java/com/example/factory/pizza_store/pizza/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory/src/test/java/com/example/factory/FactoryApplicationTests.java" afterDir="false" />
+    <list default="true" id="920e759f-8c1e-4fa3-9e7d-4f9c95f58962" name="Changes" comment="FactoryMethod and AbstractFactory">
+      <change afterPath="$PROJECT_DIR$/command/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/example/command/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/example/command/RemoteLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/example/command/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/example/command/command/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/example/command/command/ceiling_fan/CeilingFanHighCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/example/command/command/ceiling_fan/CeilingFanMediumCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/example/command/command/ceiling_fan/CeilingFanOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/example/command/command/garage_door/GarageDoorCloseCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/example/command/command/garage_door/GarageDoorOpenCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/example/command/command/light/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/example/command/command/light/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/example/command/command/stereo/StereoOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/example/command/command/stereo/StereoOnWithCDCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/example/command/reciever/CeilingFan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/example/command/reciever/GarageDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/example/command/reciever/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/java/com/example/command/reciever/Stereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command/src/test/java/com/example/command/CommandApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
@@ -44,7 +49,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/factory" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/command" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,28 +62,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tolst/IdeaProjects/design-patterns/decorator/src/main/java/ru/kononovea/decorator/input_stream&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;865595bf81bec7b6c45158c8f0c3ade4&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "C:/Users/tolst/IdeaProjects/design-patterns/decorator/src/main/java/ru/kononovea/decorator/input_stream",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "865595bf81bec7b6c45158c8f0c3ade4"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.command" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tolst\IdeaProjects\design-patterns\decorator\src\main\java\ru\kononovea\decorator\input_stream" />
     </key>
@@ -98,7 +106,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PizzaTestDrive">
+  <component name="RunManager" selected="Application.RemoteLoader">
     <configuration name="InputTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.kononovea.decorator.input_stream.InputTest" />
       <module name="decorator" />
@@ -118,6 +126,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoteLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.command.RemoteLoader" />
+      <module name="command" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,15 +172,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.kononovea.WeatherStation" />
-      <module name="WeatherStation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.kononovea.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="CommandApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="command" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.command.CommandApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoteLoader" />
         <item itemvalue="Application.PizzaTestDrive" />
         <item itemvalue="Application.InputTest" />
         <item itemvalue="Application.StarbuzzCoffee" />
         <item itemvalue="Application.SwingObserverExample" />
-        <item itemvalue="Application.WeatherStation" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +227,8 @@
       <workItem from="1710225301017" duration="193000" />
       <workItem from="1710415981803" duration="5764000" />
       <workItem from="1710761921255" duration="35000" />
-      <workItem from="1711520758915" duration="3974000" />
+      <workItem from="1711520758915" duration="5261000" />
+      <workItem from="1711611431387" duration="11710000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1701354969788</created>
@@ -242,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709545830300</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="FactoryMethod and AbstractFactory">
+      <created>1711525107861</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711525107861</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +288,8 @@
     <MESSAGE value="Patterns Strategy and Observer" />
     <MESSAGE value="Pattern Observer" />
     <MESSAGE value="Decorator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decorator" />
+    <MESSAGE value="FactoryMethod and AbstractFactory" />
+    <option name="LAST_COMMIT_MESSAGE" value="FactoryMethod and AbstractFactory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
