@@ -4,21 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="920e759f-8c1e-4fa3-9e7d-4f9c95f58962" name="Changes" comment="Command">
-      <change afterPath="$PROJECT_DIR$/adapter/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/ru/kononovea/DuckTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/ru/kononovea/IteratorEnumeration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/ru/kononovea/TestIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/ru/kononovea/adapter/TurkeyAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/ru/kononovea/duck/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/ru/kononovea/duck/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/ru/kononovea/turkey/Turkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/ru/kononovea/turkey/WildTurkey.java" afterDir="false" />
+    <list default="true" id="920e759f-8c1e-4fa3-9e7d-4f9c95f58962" name="Changes" comment="adapter">
+      <change afterPath="$PROJECT_DIR$/facade/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/main/java/ru/kononovea/HomeTheaterTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/main/java/ru/kononovea/equipment/Amplifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/main/java/ru/kononovea/equipment/PopcornPopper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/main/java/ru/kononovea/equipment/Projector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/main/java/ru/kononovea/equipment/Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/main/java/ru/kononovea/equipment/StreamingPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/main/java/ru/kononovea/equipment/TheaterLights.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/main/java/ru/kononovea/equipment/Tuner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facade/src/main/java/ru/kononovea/facade/HomeTheaterFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
@@ -38,7 +39,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/adapter" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/facade" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,27 +52,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/Users/tolst/IdeaProjects/design-patterns/decorator/src/main/java/ru/kononovea/decorator/input_stream",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "spring.configuration.checksum": "865595bf81bec7b6c45158c8f0c3ade4"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tolst/IdeaProjects/design-patterns/decorator/src/main/java/ru/kononovea/decorator/input_stream&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;12c016085330fd1d1f3916063bd18982&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.command" />
@@ -95,7 +96,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestIterator">
+  <component name="RunManager" selected="Application.HomeTheaterTestDrive">
     <configuration name="DuckTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.kononovea.DuckTestDrive" />
       <module name="adapter" />
@@ -109,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.kononovea.decorator.input_stream.InputTest" />
-      <module name="decorator" />
+    <configuration name="HomeTheaterTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.kononovea.HomeTheaterTestDrive" />
+      <module name="facade" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.kononovea.decorator.input_stream.*" />
+          <option name="PATTERN" value="ru.kononovea.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeTheaterTestDrive" />
         <item itemvalue="Application.TestIterator" />
         <item itemvalue="Application.DuckTestDrive" />
         <item itemvalue="Application.RemoteLoader" />
         <item itemvalue="Application.PizzaTestDrive" />
-        <item itemvalue="Application.InputTest" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +218,9 @@
       <workItem from="1710415981803" duration="5764000" />
       <workItem from="1710761921255" duration="35000" />
       <workItem from="1711520758915" duration="5261000" />
-      <workItem from="1711611431387" duration="15462000" />
+      <workItem from="1711611431387" duration="15506000" />
+      <workItem from="1711726108756" duration="4461000" />
+      <workItem from="1711960481615" duration="907000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1701354969788</created>
@@ -261,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711631211645</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adapter">
+      <created>1711637634110</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711637634110</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +296,8 @@
     <MESSAGE value="Decorator" />
     <MESSAGE value="FactoryMethod and AbstractFactory" />
     <MESSAGE value="Command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Command" />
+    <MESSAGE value="adapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="adapter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

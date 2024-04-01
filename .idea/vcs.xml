@@ -5,6 +5,7 @@
     <mapping directory="$PROJECT_DIR$/adapter" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/command" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/decorator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/facade" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/factory" vcs="Git" />
   </component>
 </project>
